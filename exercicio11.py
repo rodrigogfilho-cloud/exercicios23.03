@@ -1,0 +1,6 @@
+# 11.	Leia uma data e determine se ela e válida.  Ou seja, verifique se o mês está entre 1 e 12, e se o dia existe naquele mês. Note que fevereiro tem 29 dias em anos bissextos, e 28 dias em anos não bissextos. A ordem de leitura e impressão dos dados é: dia, mês, ano.
+ano = int(input("Digite o ano: "))
+dia = int(input("Digite o dia: "))
+mes = int(input("Digite o mês: "))
+
+bissexto = ano % 4 == 0 
